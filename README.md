@@ -1,6 +1,6 @@
 # Python toolbox
 
-Install
+Set of python scripts
 
 ### Debian
 
