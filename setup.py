@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name='toolbox',
-    version='1.0',
+    version='1.1',
     description='toolbox of python scripts',
     url='https://github.com/NapoleonWils0n/toolbox',
     author='NapoleonWils0n',

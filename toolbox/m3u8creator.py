@@ -18,7 +18,6 @@ def main(argv):
             if mimetypes.guess_type(page)[0] == 'text/plain':
                 with open(page, 'r') as file:
                     page = file.readlines()
-                file.close()          
                 return page
 
     # text file to read in
@@ -36,7 +35,6 @@ def main(argv):
             vfilename=extint+unquote(unquote(urlsplit)) # url decode and prefix with extint
             file.write("%s\n" % vfilename)
             file.write("%s\n" % url)
-    file.close() 
 
 #if __name__ == "__main__":
 #    main(sys.argv[1:])
