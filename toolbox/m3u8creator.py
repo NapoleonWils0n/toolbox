@@ -31,7 +31,7 @@ def main(argv):
     with open('playlist.m3u8', 'w') as file:
         file.write("%s\n" % extm3u)
         for url in text:
-            urlsplit=url[:-5].rsplit('/', 1)[-1] # split url on list / and remove extension
+            urlsplit=url.rsplit('/', 1)[-1] # split url on list /
             vfilename=extint+unquote(unquote(urlsplit)) # url decode and prefix with extint
             file.write("%s\n" % vfilename)
             file.write("%s\n" % url)
