@@ -13,7 +13,7 @@ setup(
     packages=['toolbox'],
     entry_points={
         'console_scripts': [
-            'm3u8creator = toolbox.m3u8creator:entry',
+            'm3ucreator = toolbox.m3ucreator:entry',
         ],
     }
 )
