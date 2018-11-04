@@ -28,7 +28,7 @@ def main(argv):
     extm3u='#EXTM3U'
     extint='#EXTINF:0,'
 
-    with open('playlist.m3u8', 'w') as file:
+    with open('playlist.m3u', 'w') as file:
         file.write("%s\n" % extm3u)
         for url in text:
             urlsplit=url.rsplit('/', 1)[-1] # split url on list /
