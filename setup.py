@@ -14,6 +14,7 @@ setup(
     entry_points={
         'console_scripts': [
             'm3ucreator = toolbox.m3ucreator:entry',
+            'wscrape = toolbox.wscrape:entry',
         ],
     }
 )
