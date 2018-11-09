@@ -12,6 +12,13 @@ except ImportError:
 # main
 def main(argv):
 
+    if len(argv) == 0: # no arguments passed to script
+        print("No arguments passed to script")
+        sys.exit()
+    elif len(argv) > 1: # too many arguments passed to script
+        print("Too many arguments passed to script")
+        sys.exit()
+
     # base url passed as first arg to script
     url=(argv[0])
 
@@ -70,7 +77,5 @@ def main(argv):
     else:
         print('Domain not matched')
 
-if __name__ == "__main__":
+def entry():
     main(sys.argv[1:])
-
-
