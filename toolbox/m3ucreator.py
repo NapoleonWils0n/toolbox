@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.6
+#!/usr/bin/env python3.7
 
 import sys, os, re, os.path, mimetypes
 from urllib.parse import unquote

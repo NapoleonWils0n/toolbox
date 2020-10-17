@@ -85,11 +85,11 @@ Finally source your ~/.bashrc
 #### Install scripts with pip
 
 ```
-pip-3.6 install --user git+https://github.com/NapoleonWils0n/toolbox.git
+pip-3.7 install --user git+https://github.com/NapoleonWils0n/toolbox.git
 ```
 
 * Upgrade scripts with pip
 
 ```
-pip-3.6 install --upgrade --user git+https://github.com/NapoleonWils0n/toolbox.git
+pip-3.7 install --upgrade --user git+https://github.com/NapoleonWils0n/toolbox.git
 ```

@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name='toolbox',
-    version='1.2',
+    version='1.3',
     description='toolbox of python scripts',
     url='https://github.com/NapoleonWils0n/toolbox',
     author='NapoleonWils0n',
@@ -14,7 +14,7 @@ setup(
     entry_points={
         'console_scripts': [
             'm3ucreator = toolbox.m3ucreator:entry',
-            'wscrape = toolbox.wscrape:entry',
+            'footy = toolbox.footy:entry',
         ],
     }
 )
