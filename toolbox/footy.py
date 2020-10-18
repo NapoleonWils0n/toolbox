@@ -46,5 +46,8 @@ def main(argv):
     except (ValueError,IndexError):
         print("ValueError,IndexError")
 
-if __name__ == "__main__":
+# if __name__ == "__main__":
+#     main(sys.argv[1:])
+
+def entry():
     main(sys.argv[1:])
